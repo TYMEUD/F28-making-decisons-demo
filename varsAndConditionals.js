@@ -19,7 +19,7 @@ if(obiwanHealth <= anakinAttack){
     console.log(`Obiwans health is now at ${obiwanHealth}`)
 }
 
-obiwanDefense += 30
+obiwanDefense += 40
 
 for(let i = 0; i < 5; i++){
     obiwanHealth -= (anakinAttack - obiwanDefense)
